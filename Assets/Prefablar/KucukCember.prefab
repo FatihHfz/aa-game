@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 5687944540032870964}
   m_Layer: 0
   m_Name: KucukCember
-  m_TagString: Untagged
+  m_TagString: kucukcembertag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

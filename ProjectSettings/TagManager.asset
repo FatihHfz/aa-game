@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - donencembertag
+  - anacembertag
+  - oyunyoneticisitag
+  - kucukcembertag
   layers:
   - Default
   - TransparentFX

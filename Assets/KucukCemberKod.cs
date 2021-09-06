@@ -8,9 +8,11 @@ public class KucukCemberKod : MonoBehaviour
     Rigidbody2D fizik;
     public float hiz;
     bool hareketKontrol = false;
+    GameObject oyunYoneticisi;
     void Start()
     {
         fizik = GetComponent<Rigidbody2D>();
+        oyunYoneticisi=GameObject.FindGameObjectWithTag("oyunyoneticisitag");
     }
 
     
@@ -29,5 +31,10 @@ public class KucukCemberKod : MonoBehaviour
             transform.SetParent(col.transform);
             hareketKontrol = true;
         }
+        if(col.tag=="kucukcembertag") //temas oldugunda
+        {
+            oyunYoneticisi.GetComponent<OyunYoneticisi>().OyunBitti();
+        }
+    
     }
 }
