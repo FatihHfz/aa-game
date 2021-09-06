@@ -24,8 +24,9 @@ public class KucukCemberKod : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.tag=="donencembertag")
+        if(col.tag=="donencembertag") //çarpışma olduğunda bu if e giriyor
         {
+            transform.SetParent(col.transform);
             hareketKontrol = true;
         }
     }
