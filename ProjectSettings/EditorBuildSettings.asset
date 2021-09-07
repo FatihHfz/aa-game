@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Leveller/AnaMenu.unity
+    guid: 64f496195a15c3d4eabe025db935345c
+  - enabled: 1
+    path: Assets/Leveller/level 1.unity
+    guid: d48aa0dad5cda3e4899a9c736b1c1f8a
   m_configObjects: {}
