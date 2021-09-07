@@ -6,6 +6,7 @@ public class OyunYoneticisi : MonoBehaviour
 {
     GameObject donenCember;
     GameObject AnaCember;
+    public Animator animator;
     void Start()
     {
         donenCember=GameObject.FindGameObjectWithTag("donencembertag");
@@ -17,5 +18,6 @@ public class OyunYoneticisi : MonoBehaviour
     {
         donenCember.GetComponent<Dondurme>().enabled = false;
         AnaCember.GetComponent<AnaCember>().enabled = false;
+        animator.SetTrigger("oyunbitti");
     }
 }
