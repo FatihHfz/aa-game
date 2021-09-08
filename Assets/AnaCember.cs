@@ -5,9 +5,10 @@ using UnityEngine;
 public class AnaCember : MonoBehaviour
 {
     public GameObject kucukCember;
+    GameObject OyunYonetici;
     void Start()
     {
-        
+        OyunYonetici=GameObject.FindGameObjectWithTag("oyunyoneticisitag");
     }
 
     // Update is called once per frame
@@ -22,5 +23,6 @@ public class AnaCember : MonoBehaviour
     void kucukCemberOlustur()
     {
         Instantiate(kucukCember,transform.position,transform.rotation);
+        OyunYonetici.GetComponent<OyunYoneticisi>().KucukCemberlerdeTextGösterme();
     }
 }

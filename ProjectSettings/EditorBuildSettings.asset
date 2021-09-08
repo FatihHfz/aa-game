@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Leveller/AnaMenu.unity
     guid: 64f496195a15c3d4eabe025db935345c
   - enabled: 1
-    path: Assets/Leveller/level 1.unity
+    path: Assets/Leveller/1.unity
     guid: d48aa0dad5cda3e4899a9c736b1c1f8a
+  - enabled: 1
+    path: Assets/Leveller/2.unity
+    guid: ceffddc8afd70a74898e8ce88667eb32
   m_configObjects: {}
