@@ -18,8 +18,11 @@ public class OyunYoneticisi : MonoBehaviour
     bool kontrol = true;
     void Start()
     {
+        PlayerPrefs.SetInt("kayit",int.Parse(SceneManager.GetActiveScene().name)); //level kaydetme telefon hafızası
+
         donenCember=GameObject.FindGameObjectWithTag("donencembertag");
         AnaCember=GameObject.FindGameObjectWithTag("anacembertag");
+
         DonenCemberLevel.text = SceneManager.GetActiveScene().name;
 
             if(kacTaneKucukCemberOlsun<2)

@@ -7,7 +7,16 @@ public class MenuKontrol : MonoBehaviour
 {
     public void oyunaGit()
     {
-        SceneManager.LoadScene("1");
+        int kayitliLevel = PlayerPrefs.GetInt("kayit");
+            if(kayitliLevel == 0)
+            {
+                SceneManager.LoadScene(kayitliLevel + 1);
+            }
+            else
+            {
+                SceneManager.LoadScene(kayitliLevel);
+            }
+        
     }
 
     public void cik()
