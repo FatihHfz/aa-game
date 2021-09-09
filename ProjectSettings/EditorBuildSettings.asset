@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Leveller/2.unity
     guid: ceffddc8afd70a74898e8ce88667eb32
+  - enabled: 1
+    path: Assets/Leveller/3.unity
+    guid: caea81a8837c9c84487163a9ee7c1c9a
   m_configObjects: {}

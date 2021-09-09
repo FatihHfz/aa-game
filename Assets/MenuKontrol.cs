@@ -7,7 +7,7 @@ public class MenuKontrol : MonoBehaviour
 {
     public void oyunaGit()
     {
-        SceneManager.LoadScene("level 1");
+        SceneManager.LoadScene("1");
     }
 
     public void cik()
