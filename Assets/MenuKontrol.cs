@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class MenuKontrol : MonoBehaviour
 {
+    void Start() 
+    {
+        //PlayerPrefs.DeleteAll();   //Bu kod çalıştırırsak tüm kayıtlar siliniyor.     
+    }
     public void oyunaGit()
     {
         int kayitliLevel = PlayerPrefs.GetInt("kayit");
